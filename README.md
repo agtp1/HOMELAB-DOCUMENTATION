@@ -16,8 +16,24 @@ SWITCH CLIENTES:
   
 ![image](https://github.com/user-attachments/assets/c9d015b1-5afd-495b-b259-84c7b7ed6fb8)
 
+PUNTO DE ACCESO:
+- ![Sin título](https://github.com/user-attachments/assets/a72c7ca3-1c09-4ed9-822a-3670096a6724)
+
+
 DISTRIBUCIÓN RED:
 - Salida a internet: Para abrir puerto y salir a internet mantengo el router de mi ISP. Simplemente lo utilizo para tener conectividad a internet.
+  
 ROUTER PRINCIPAL:
-- Al router le llega 1 cable a la ETH1, que es por donde salimos a internet. Seguidamente, en la ETH5, es mi puerto TRUNK del ROUTER, es decir en este puerto tengo hecha la encapsulación con las vlans para que el SWITCH PRINCIPAL, pueda gestionar y visualizar estas VLANS. También he metido la ETH5, en un BRIDGE, a este BRIDGE. le he asignado una IP y he creado un DHCP, para que el SWITCH PRINCIPAL, reciba una IP.
-- Para la parte wifi, de momento el router está funcionando como ap, ya que actualmente no dispongo de un ap. Tengo configurada las dos antenas, tanto la de 2,4 GHz como la de 5 Ghz. Disponen las 2 del mismo SSID, de esta forma, el propio cliente, elegirá a que banda conectarse dependiendo de la situación donde esté el cliente.
+- Al router le llega 1 cable a la ETH5, que es por donde salimos a internet. Seguidamente, en la ETH1, es mi puerto TRUNK del ROUTER, es decir en este puerto tengo hecha la encapsulación con las vlans para que el SWITCH PRINCIPAL, pueda gestionar y visualizar estas VLANS. 
+![imagen](https://github.com/user-attachments/assets/1fc92e16-36c7-4366-adae-d117137a8fc3)
+
+
+Estas son las redes actuales que están configuradas en mi red. En el puerto 1, como he dicho anteriormente están encapsuladas todas las vlans(REDES) y se conectan al puerto trunk del SWITCH PRINCIPAL.
+![imagen](https://github.com/user-attachments/assets/ff9f3444-68c8-4bec-b594-f30a3de828cf)
+
+
+
+
+SWITCH PRINCIPAL 
+
+
