@@ -72,7 +72,7 @@ FUNCIONES NODO 1: En el nodo 1 simplemente estoy corriendo 4 contenedores:
 - ADBLOCKER: Pihole
 
 - Tengo dos interficies de red, ya que de esta forma los de la VLAN 10 y los de la VLAN 20 (Servidores y Clientes), pueden tener de servidor DNS al PIHOLE, además los clientes de la VPN también usan de servidor DNS la 192.168.10.5(ip PIHOLE).
-  ![imagen](https://github.com/user-attachments/assets/fadac102-66ad-41e0-9095-7bd09c3a6b4f)
+![imagen](https://github.com/user-attachments/assets/fadac102-66ad-41e0-9095-7bd09c3a6b4f)
 
 ![imagen](https://github.com/user-attachments/assets/4509bc77-5966-42b2-a865-92d8135fe154)
 
