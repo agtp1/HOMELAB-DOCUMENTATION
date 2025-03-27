@@ -17,7 +17,7 @@ SWITCH CLIENTES:
 ![image](https://github.com/user-attachments/assets/c9d015b1-5afd-495b-b259-84c7b7ed6fb8)
 
 PUNTO DE ACCESO:
-- ![UAP-AC-LITE](https://github.com/user-attachments/assets/a72c7ca3-1c09-4ed9-822a-3670096a6724)
+![UAP-AC-LITE](https://github.com/user-attachments/assets/a72c7ca3-1c09-4ed9-822a-3670096a6724)
 
 
 DISTRIBUCIÓN RED:
@@ -40,5 +40,10 @@ Estas son las redes actuales que están configuradas en mi red. En el puerto 1, 
 
 
 SWITCH PRINCIPAL 
+- El puerto 5 es el puerto TRUNK del SWITCH, es decir esta fisicamente conectado con un cable a mi puerto trunk del router. Es decir que el router se conecta por el puerto 1 y el switch por el puerto 5. Básicamente los puertos trunk ven todas las VLAN. En este caso el puerto 3 y 4 también estan en modo TRUNK, ya que es donde van conectados los dos nodos de proxmox, y me interesa que los dos nodos vean ambas vlans. Y el puerto 1, esta assignado la vlan 30, ya que aquí es donde se conecta la camara de seguridad.
+![407395227-5df0c862-8a06-465d-aee2-8e3bccc3616d](https://github.com/user-attachments/assets/b8b0ed89-2be8-464b-a786-c05ac1f1cb03)
 
+![407395327-345e2a83-48c4-4513-899b-df8f4d06f2a8](https://github.com/user-attachments/assets/79c1d07a-ffef-4221-a197-abd371816b64)
+
+![407395387-8d9b50f6-19a2-41df-81e5-f33f88a25fce](https://github.com/user-attachments/assets/ee5bbfdd-997f-4b28-9fa5-107f902c3c55)
 
