@@ -131,6 +131,7 @@ CÓPIAS DE SEGURIDAD: Mi política de copias de seguridad, es muy simple. Los co
 
 SPEEDTEST:
 - Ethernet:
+  
 ![imagen](https://github.com/user-attachments/assets/6f7d8eeb-6179-4c3b-98e2-b910edd6432b)
 
 - WIFI:
