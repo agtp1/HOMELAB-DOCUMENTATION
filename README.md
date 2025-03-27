@@ -85,7 +85,7 @@ NODE 2
     DISCOS: 1 HDD 1TB, 2 HDD 500GB, 1 HDD 160GB
     TARGETA DE RED: 1 TARGETA DE RED EXTRA 1 GBPS No es un servidor muy potente pero actualmente cubre las necessidades a nivel personal.
 
-FUNCIONES NODO 1: En el nodo 1 simplemente estoy corriendo 4 contenedores:
+FUNCIONES NODO 1: En el nodo 1 simplemente estoy corriendo 6 contenedores:
 
 - ADBLOCKER: Pihole
 
