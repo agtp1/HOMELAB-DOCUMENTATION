@@ -40,7 +40,7 @@ Estas son las redes actuales que están configuradas en mi red. En el puerto 1, 
   El encargado de repartir IPs en mi RED, es el mismo Router, es decir, que no me hace falta tener un servidor DHCP dedicado, me basta con el del ROUTER.
 
 WIFI:
-Ahora dispongo de 3 SSID 
+Ahora dispongo de 3 SSID de los cuales 2 operan únicamente en la antena de 5 GHz y la de IoT en ambas.
 - Red Principal, que es donde están los miembros de casa, moviles, portatiles, tablets, etc.
 - IoT, donde estan los dispotivos IoT, TV, chromechast, aspirador inteligente...
 - Invitados, la cual para tener acceso internet tengo realizado un pequeño y simple HotSpot, donde antes de conectarse a mi red se tienen que autenticar para tener salida a internet.
@@ -116,7 +116,8 @@ CONSUMOS NODO 1: Aunque parezcan pocos recursos, la CPU Y la RAM, son más que s
 
 ![imagen](https://github.com/user-attachments/assets/ca40befa-43ec-4112-9269-d0f088d92d27)
 
-FUNCIONES NODO 2: En el nodo 2 actualmente solo tengo corriendo un TrueNAS, donde tengo varias carpetas compartidas vía SAMBA, también gestiono las COPIAS DE SEGURIDAD, tanto de PROXMOX, como del propio TrueNAS. En este TrueNAS, he realizado un PASSTROUGHT, de 3 discos físicos. 1 de 160GB donde simplemente está instalado el s.o, y 2 de 500GB cada uno que forman un RAID1. Dentro de TrueNAS, tengo corriendo un pequeño servidor de vídeo, concretamente Jellyfin. Donde actualmente tengo algunos capítulos de algunas series que me gustaría ver. Además, los núcleos asignados a esta máquina virtual, están en modo HOST, para que la máquina virtual utilice directamente los núcleos de la CPU. Un espacio de TrueNAS, está dedicado para las copias de seguridad de los contenedores del NODO1, este espacio está compartido mediante NFS, y está asignado al propio PROXMOX. CONSUMOS NODO 2: 
+FUNCIONES NODO 2: En el nodo 2 actualmente solo tengo corriendo un TrueNAS, donde tengo varias carpetas compartidas vía SAMBA, también gestiono las COPIAS DE SEGURIDAD, tanto de PROXMOX, como del propio TrueNAS. En este TrueNAS, he realizado un PASSTROUGHT, de 3 discos físicos. 1 de 160GB donde simplemente está instalado el s.o, y 2 de 500GB cada uno que forman un RAID1. Dentro de TrueNAS, tengo corriendo un pequeño servidor de vídeo, concretamente Jellyfin. Donde actualmente tengo algunos capítulos de algunas series que me gustaría ver. Además, los núcleos asignados a esta máquina virtual, están en modo HOST, para que la máquina virtual utilice directamente los núcleos de la CPU. Un espacio de TrueNAS, está dedicado para las copias de seguridad de los contenedores del NODO1, este espacio está compartido mediante NFS, y está asignado al propio PROXMOX. 
+CONSUMOS NODO 2: 
 ![405790312-6e920980-fa33-4240-be01-4b6471b62c1b](https://github.com/user-attachments/assets/7741490c-ae5e-4575-9ec4-a852a49e6854)
 
 ![405790240-5818c098-8522-47f3-91f1-1e8a17752d91](https://github.com/user-attachments/assets/f17e57b9-8296-4f3b-b173-718c6b72d356)
@@ -128,8 +129,12 @@ CÓPIAS DE SEGURIDAD: Mi política de copias de seguridad, es muy simple. Los co
 
 ![405792606-768b7a18-3fc2-4962-a127-c8590f55e9ba](https://github.com/user-attachments/assets/aa3fb2fc-c1db-4f1b-9740-54933e82c19c)
 
+SPEEDTEST:
+- Ethernet:
+![imagen](https://github.com/user-attachments/assets/6f7d8eeb-6179-4c3b-98e2-b910edd6432b)
 
-
+- WIFI:
+Aquí depende un poco de la targeta de red del cliente, si el cliente es wifi 5 y su ancho de banda, llegan aproximadamente unos 300 - 350 Megas. Si el cliente(como es en este caso) es wifi 6 y si ancho de banda es mas grande podemos llegar a los 450 Megas en condiciones mas o menos óptimas.
 
 
 
