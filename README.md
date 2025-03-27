@@ -17,7 +17,7 @@ SWITCH CLIENTES:
 ![image](https://github.com/user-attachments/assets/c9d015b1-5afd-495b-b259-84c7b7ed6fb8)
 
 PUNTO DE ACCESO:
-- ![Sin título](https://github.com/user-attachments/assets/a72c7ca3-1c09-4ed9-822a-3670096a6724)
+- ![UAP-AC-LITE](https://github.com/user-attachments/assets/a72c7ca3-1c09-4ed9-822a-3670096a6724)
 
 
 DISTRIBUCIÓN RED:
@@ -31,6 +31,11 @@ ROUTER PRINCIPAL:
 Estas son las redes actuales que están configuradas en mi red. En el puerto 1, como he dicho anteriormente están encapsuladas todas las vlans(REDES) y se conectan al puerto trunk del SWITCH PRINCIPAL.
 ![imagen](https://github.com/user-attachments/assets/ff9f3444-68c8-4bec-b594-f30a3de828cf)
 
+- SERVIDOR VPN:
+  ![imagen](https://github.com/user-attachments/assets/9367be48-7605-4e9e-87f5-843e0f2ff0bf)
+
+- Servidor DHCP:
+  El encargado de repartir IPs en mi RED, es el mismo Router, es decir, que no me hace falta tener un servidor DHCP dedicado, me basta con el del ROUTER.
 
 
 
