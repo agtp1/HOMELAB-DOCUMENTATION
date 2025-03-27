@@ -137,6 +137,21 @@ SPEEDTEST:
 - WIFI:
 Aquí depende un poco de la targeta de red del cliente, si el cliente es wifi 5 y su ancho de banda, llegan aproximadamente unos 300 - 350 Megas. Si el cliente(como es en este caso) es wifi 6 y si ancho de banda es mas grande podemos llegar a los 450 Megas en condiciones mas o menos óptimas.
 
+![imagen](https://github.com/user-attachments/assets/8b333643-02ec-4a02-9807-482bf28d8ed9)
 
+CAMARAS SEGURIDAD:
 
+    Actualmente dispongo de 2 camars de seguridad, 1 mas moderna que esta en la entrada, esta esta conectada via wifi.
+    Luego tengo una "vieja" que me regalaron porque la iban a tirar y decidí aprovecharla mediante el software YOOSE, que es un software genérico para cámaras, esta camara la tengo dentro del rack mas que nada para toquetear un poco.
 
+"RACK"
+No dispongo de rack, pero actualmente, con los dispositivos sencillos que tengo no me hace falta, y más o menos puedo tenerlo todo medianamente organizado fácilmente.ç
+
+![410188492-0b774687-0738-41be-b713-338406319597](https://github.com/user-attachments/assets/97a854ea-a410-4d77-bafc-d73d8993a4a2)
+
+UPDATES
+
+He realizado mi homelab con lo que tengo a mano, y muy poco a poco. No es gran cosa, pero con el presupuesto que tengo cubre mis necesidades.
+- Me gustaría añadir un SAI sí o sí. En mi zona no tengo cortes eléctricos. Alguna vez puede pasar pero muy de vez en cuando.
+- A nivel de servidores, expandir mi almacenamiento. Me gustaria añadir dos HDD de 6 TB cada uno y formam un RAID 1. Añadirlo a TrueNAS, ya que es donde realizo los backups, los sincronizo con la nube y comparto almacenamiento en red.
+- Enlaces a 10 GBPS, me encantaría tener la posibilidad de agregar enlaces a 10 GBPS entre el servidor TrueNAS y el resto de dispositivos locales.
