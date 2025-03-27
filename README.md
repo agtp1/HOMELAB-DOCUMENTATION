@@ -50,6 +50,25 @@ SWITCH PRINCIPAL
 
 ![407395387-8d9b50f6-19a2-41df-81e5-f33f88a25fce](https://github.com/user-attachments/assets/ee5bbfdd-997f-4b28-9fa5-107f902c3c55)
 
+WIFI:
+Ahora dispongo de 3 SSID 
+- Red Principal, que es donde están los miembros de casa, moviles, portatiles, tablets, etc.
+- IoT, donde estan los dispotivos IoT, TV, chromechast, aspirador inteligente...
+- Invitados, la cual para tener acceso internet tengo realizado un pequeño y simple HotSpot, donde antes de conectarse a mi red se tienen que autenticar para tener salida a internet.
+
+![imagen](https://github.com/user-attachments/assets/444ec29b-d096-44c7-85a6-041ca43f8b5d)
+
+FIREWALL:
+El router, te da una opción para hacer un firewall con reglas muy sólidas y que funciona muy pero que muy correcto. Cabe recalcar que puedes añadir o quitar reglas segun tus necesidades.
+
+![imagen](https://github.com/user-attachments/assets/45da347a-0b33-4035-9b10-5def3387d41f)
+
+![imagen](https://github.com/user-attachments/assets/ffb98bd7-0ca9-4cfb-a4dd-7d466bb3f1a7)
+
+DASHBOARD ROUTER:
+![imagen](https://github.com/user-attachments/assets/3e017961-16ff-4882-a786-c124d3b3b67d)
+
+
 CLUSTER PROXMOX:
 
 NODE 1
@@ -75,4 +94,44 @@ FUNCIONES NODO 1: En el nodo 1 simplemente estoy corriendo 4 contenedores:
 ![imagen](https://github.com/user-attachments/assets/fadac102-66ad-41e0-9095-7bd09c3a6b4f)
 
 ![imagen](https://github.com/user-attachments/assets/4509bc77-5966-42b2-a865-92d8135fe154)
+
+- DASHBOARD: Homarr
+![imagen](https://github.com/user-attachments/assets/0bc7df2c-ef91-486d-810a-2856973c184d)
+
+- PROXY: Nginx Proxy Manager
+![imagen](https://github.com/user-attachments/assets/75791257-c639-4831-84c7-5e7abfe5f5d2)
+
+- PASSWORD MANAGER: VaultWarden
+![407397320-1525570c-bd01-4b54-b7e3-eea283b56343](https://github.com/user-attachments/assets/9417b2a2-56f7-426a-914b-518a0ce0c823)
+
+- MONITORIZACIÓN: UptimeKuma
+![imagen](https://github.com/user-attachments/assets/e17bb57f-5432-4053-bb22-d684cc4aea8a)
+
+- AUTOMATIZACIONES: N8N
+- Estoy empezando con esta herramienta y estoy haciendo pruebas y demás.
+![imagen](https://github.com/user-attachments/assets/cd5bcdd8-621c-440c-8286-7613b4861b97)
+
+
+CONSUMOS NODO 1: Aunque parezcan pocos recursos, la CPU Y la RAM, son más que suficientes para mantener activos y en correcto funcionamiento los servicios que necesito.
+![imagen](https://github.com/user-attachments/assets/7fc7f270-53a8-4bae-997c-cd122d078912)
+
+![imagen](https://github.com/user-attachments/assets/ca40befa-43ec-4112-9269-d0f088d92d27)
+
+FUNCIONES NODO 2: En el nodo 2 actualmente solo tengo corriendo un TrueNAS, donde tengo varias carpetas compartidas vía SAMBA, también gestiono las COPIAS DE SEGURIDAD, tanto de PROXMOX, como del propio TrueNAS. En este TrueNAS, he realizado un PASSTROUGHT, de 3 discos físicos. 1 de 160GB donde simplemente está instalado el s.o, y 2 de 500GB cada uno que forman un RAID1. Dentro de TrueNAS, tengo corriendo un pequeño servidor de vídeo, concretamente Jellyfin. Donde actualmente tengo algunos capítulos de algunas series que me gustaría ver. Además, los núcleos asignados a esta máquina virtual, están en modo HOST, para que la máquina virtual utilice directamente los núcleos de la CPU. Un espacio de TrueNAS, está dedicado para las copias de seguridad de los contenedores del NODO1, este espacio está compartido mediante NFS, y está asignado al propio PROXMOX. CONSUMOS NODO 2: 
+![405790312-6e920980-fa33-4240-be01-4b6471b62c1b](https://github.com/user-attachments/assets/7741490c-ae5e-4575-9ec4-a852a49e6854)
+
+![405790240-5818c098-8522-47f3-91f1-1e8a17752d91](https://github.com/user-attachments/assets/f17e57b9-8296-4f3b-b173-718c6b72d356)
+
+CÓPIAS DE SEGURIDAD: Mi política de copias de seguridad, es muy simple. Los contenedores que corren en el NODO 1, se hace una copia de seguridad en el espacio NFS, compartido por TrueNAS, luego estas copias se mandan a MEGA. Actualmente, tengo configurado que se realice 1 copiá de cada contenedor a principio de cada mes, ya que estos contenedores a penas sufren cambios. También realizo copias de las carpetas compartidas mas relevantes, que también son enviadas a MEGA. 
+![405791494-5ea02907-65ec-4146-833f-f0530df6ffda](https://github.com/user-attachments/assets/3ed87e4c-e40d-4546-a775-e09cbb7548b9)
+
+![405792097-6091a0c8-2d8a-4caf-bae4-7b1b9aa27a25](https://github.com/user-attachments/assets/bcb29975-3950-4c00-bc6a-7dcda8a25c94)
+
+![405792606-768b7a18-3fc2-4962-a127-c8590f55e9ba](https://github.com/user-attachments/assets/aa3fb2fc-c1db-4f1b-9740-54933e82c19c)
+
+
+
+
+
+
 
