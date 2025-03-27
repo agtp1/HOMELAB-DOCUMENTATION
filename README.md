@@ -144,13 +144,13 @@ CAMARAS SEGURIDAD:
     Actualmente dispongo de 2 camars de seguridad, 1 mas moderna que esta en la entrada, esta esta conectada via wifi.
     Luego tengo una "vieja" que me regalaron porque la iban a tirar y decidí aprovecharla mediante el software YOOSE, que es un software genérico para cámaras, esta camara la tengo dentro del rack mas que nada para toquetear un poco.
 
-##"RACK"
+## "RACK"
 
 No dispongo de rack, pero actualmente, con los dispositivos sencillos que tengo no me hace falta, y más o menos puedo tenerlo todo medianamente organizado fácilmente.ç
 
 ![410188492-0b774687-0738-41be-b713-338406319597](https://github.com/user-attachments/assets/97a854ea-a410-4d77-bafc-d73d8993a4a2)
 
-##UPDATES
+## UPDATES
 
 He realizado mi homelab con lo que tengo a mano, y muy poco a poco. No es gran cosa, pero con el presupuesto que tengo cubre mis necesidades.
 - Me gustaría añadir un SAI sí o sí. En mi zona no tengo cortes eléctricos. Alguna vez puede pasar pero muy de vez en cuando.
