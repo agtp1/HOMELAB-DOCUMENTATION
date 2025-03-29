@@ -59,13 +59,14 @@ DASHBOARD ROUTER:
 
 
 SWITCH PRINCIPAL 
-- El puerto 5 es el puerto TRUNK del SWITCH, es decir esta fisicamente conectado con un cable a mi puerto trunk del router. Es decir que el router se conecta por el puerto 1 y el switch por el puerto 5. Básicamente los puertos trunk ven todas las VLAN. En este caso el puerto 3 y 4 también estan en modo TRUNK, ya que es donde van conectados los dos nodos de proxmox, y me interesa que los dos nodos vean ambas vlans. Y el puerto 1, esta assignado la vlan 30, ya que aquí es donde se conecta la camara de seguridad.
+- El puerto 5 es el puerto TRUNK del SWITCH, es decir esta fisicamente conectado con un cable a mi puerto trunk del router. Es decir que el router se conecta por el puerto 1 y el switch por el puerto 5. Básicamente los puertos trunk ven todas las VLAN. En este caso el puerto 1 3 y 4 también estan en modo TRUNK, ya que es donde van conectados los dos nodos de proxmox y el AP, y me interesa que los dos nodos y el AP vean todas las vlans. En el puerto 2, que es la vlan de los CLIENTES, está conectado el switch D-LINK, ya que en este es donde van conectados los clientes. En este caso hay 4 equipos clientes conectados por cable, que son 2 PCs de sobrmesa un portatil y una TV. La camara que está dentro del "RACK", está conectada a un puerto del ROUTER, que unicamente puede ver la vlan de las CAMARAS, ya que no me quedaban mas puertos disponibles en el swtich, y en el ROUTER me sobran puertos. 
   
-![407395227-5df0c862-8a06-465d-aee2-8e3bccc3616d](https://github.com/user-attachments/assets/b8b0ed89-2be8-464b-a786-c05ac1f1cb03)
+![imagen](https://github.com/user-attachments/assets/9d798983-26d4-475d-95d7-f11be4af2f36)
 
-![407395327-345e2a83-48c4-4513-899b-df8f4d06f2a8](https://github.com/user-attachments/assets/79c1d07a-ffef-4221-a197-abd371816b64)
+![imagen](https://github.com/user-attachments/assets/89d0eaa4-6646-49ff-b4ae-060a37001eac)
 
-![407395387-8d9b50f6-19a2-41df-81e5-f33f88a25fce](https://github.com/user-attachments/assets/ee5bbfdd-997f-4b28-9fa5-107f902c3c55)
+![imagen](https://github.com/user-attachments/assets/9eb96330-c431-4636-bdad-d5bdde8db123)
+
 
 
 CLUSTER PROXMOX:
@@ -148,7 +149,8 @@ CAMARAS SEGURIDAD:
 
 No dispongo de rack, pero actualmente, con los dispositivos sencillos que tengo no me hace falta, y más o menos puedo tenerlo todo medianamente organizado fácilmente.ç
 
-![410188492-0b774687-0738-41be-b713-338406319597](https://github.com/user-attachments/assets/97a854ea-a410-4d77-bafc-d73d8993a4a2)
+![imagen](https://github.com/user-attachments/assets/fbafbdcd-ae2a-4f92-a7f0-09e6bf5dada5)
+
 
 ## UPDATES
 
