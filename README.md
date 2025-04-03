@@ -86,6 +86,11 @@ NODE 2
     DISCOS: 1 HDD 1TB, 2 HDD 500GB, 1 HDD 160GB
     TARGETA DE RED: 1 TARGETA DE RED EXTRA 1 GBPS No es un servidor muy potente pero actualmente cubre las necessidades a nivel personal.
 
+IMPORTANTE:
+- Al tener 2 nodos el quorum, era de mas del 50%, es decir que el cluster necesitaba mas del 50% de los nodos en funcionamiento, al tener unicamente 2 nodos, cuando apagaba el nodo2, que es donde tengo el truenas virtualizado, al rato el nodo 1 dejaba de dar servicio, es decir era inaccesicble via web, únicamente podia acceder a a el físicamente. No es recomendable quitar el quorum , pero en este caso, he decidido que es lo mejor, ya que no me interesa tener el nodo 2 siempre encendido, únicamente cuando necesito realizar backups y demás.
+
+  PONER FOTO DEL ARCHIVO DEL QUORUM
+
 FUNCIONES NODO 1: En el nodo 1 simplemente estoy corriendo 6 contenedores:
 
 - ADBLOCKER: Pihole
