@@ -141,7 +141,7 @@ SPEEDTEST:
 ![imagen](https://github.com/user-attachments/assets/6f7d8eeb-6179-4c3b-98e2-b910edd6432b)
 
 - WIFI:
-Aquí depende un poco de la targeta de red del cliente, si el cliente es wifi 5 y su ancho de banda, llegan aproximadamente unos 300 - 350 Megas. Si el cliente(como es en este caso) es wifi 6 y si ancho de banda es mas grande podemos llegar a los 450 Megas en condiciones mas o menos óptimas.
+Aquí depende un poco de la targeta de red del cliente, si el cliente es wifi 5 y su ancho de banda és mas pequeño, llegan aproximadamente unos 300 - 350 Megas. Si el cliente(como es en este caso) es wifi 6 y si ancho de banda es mas grande podemos llegar a los 450 Megas en condiciones mas o menos óptimas. Si el cliente ya tiene wifi 6 y su ancho de banda es mucho mas grande he conseguido una velocidad de hasta 600 Megas. Con el ancho de badna de un iphone SE.
 
 ![imagen](https://github.com/user-attachments/assets/8b333643-02ec-4a02-9807-482bf28d8ed9)
 
