@@ -45,7 +45,14 @@ Ahora dispongo de 3 SSID de los cuales 2 operan únicamente en la antena de 5 GH
 - IoT, donde estan los dispotivos IoT, TV, chromechast, aspirador inteligente...
 - Invitados, la cual para tener acceso internet tengo realizado un pequeño y simple HotSpot, donde antes de conectarse a mi red se tienen que autenticar para tener salida a internet.
 
-![imagen](https://github.com/user-attachments/assets/444ec29b-d096-44c7-85a6-041ca43f8b5d)
+IMPORTANTE:
+- En la red IOT activo la Enhanced IoT Connectivity para que la red IoT sea lo máximo compatible con todos los dispositivos IoT aunque no cumplan con los estándares
+
+<img width="499" alt="image" src="https://github.com/user-attachments/assets/1ece33fd-842e-41ff-b5d8-292a4fff3b02" />
+
+
+![image](https://github.com/user-attachments/assets/f6ecd482-f93c-499c-a1c0-7a1f8d579754)
+
 
 FIREWALL:
 El router, te da una opción para hacer un firewall con reglas muy sólidas y que funciona muy pero que muy correcto. Cabe recalcar que puedes añadir o quitar reglas segun tus necesidades.
