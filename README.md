@@ -113,7 +113,9 @@ FUNCIONES NODO 1: En el nodo 1 simplemente estoy corriendo 6 contenedores:
 - PROXY: Nginx Proxy Manager
   NPM, la función que realiza en mi homelab:
   - CLOUDFLARE apunta mi dominio a MI IP PUBLICA, luego desde el router del ISP redirijo el tráfico al ROUTER UNIFI, y de ahí redirijo el puerto 80 y el 443 a la ip del NGINX proxy manager. Y NPM ya se encarga de redirijir el tráfico a los servicios locales.
-![imagen](https://github.com/user-attachments/assets/75791257-c639-4831-84c7-5e7abfe5f5d2)
+    
+![imagen](https://github.com/user-attachments/assets/c1e20a0c-e32a-4696-9117-9b7417f6f377)
+
 
 - PASSWORD MANAGER: VaultWarden
 ![407397320-1525570c-bd01-4b54-b7e3-eea283b56343](https://github.com/user-attachments/assets/9417b2a2-56f7-426a-914b-518a0ce0c823)
