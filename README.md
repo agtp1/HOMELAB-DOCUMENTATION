@@ -146,6 +146,37 @@ CÓPIAS DE SEGURIDAD: Mi política de copias de seguridad, es muy simple. Los co
 
 ![405792606-768b7a18-3fc2-4962-a127-c8590f55e9ba](https://github.com/user-attachments/assets/aa3fb2fc-c1db-4f1b-9740-54933e82c19c)
 
+HESPIA:
+Simplemente añado los dominiosM y les suelo instalar un wordpress. Para realizar páginas web.
+
+![imagen](https://github.com/user-attachments/assets/2c7e030f-c28f-45e8-afef-55ee9b72ebc0)
+
+PARA QUE FUNCIONE EL WEBMAIL, HAY QUE AÑADIR EL webmail.dominio.com como alieses.
+
+![imagen](https://github.com/user-attachments/assets/1721bf27-892a-48bd-bc60-9a5a7cca9d55)
+
+Para los correos simlemente añado el dominio, activo estas opciones, y para el SSL, redirijo TEMPORALMENTE el trafico del puerto 80 y el 443 a la ip del HESPIA, porque sino no se puede bajar los certificados
+
+![imagen](https://github.com/user-attachments/assets/0725d530-d4b6-42df-8cb3-a8b0baf07d1d)
+
+Luego para qeu funcione correctamente vemos los DNS RECORD y simplemente vamos copiando lo que nos indica en nuestro proveedor del dominio, en mi caso cloudflare.
+
+![imagen](https://github.com/user-attachments/assets/88eb9893-f4dd-419c-a456-ddeaee30ad2f)
+
+Si usamos cloudflare, NO TENEMOS QUE PONER LA NUBE NARNJA en los RECORDS del mail. Y tener en cuenta que tenemos que abrir estos puertos para que el correo vaya bien. En mi casa solo he abierto los de IMAP y SMTP, ya que no me hace falta el POP3.
+
+![imagen](https://github.com/user-attachments/assets/f1e3b96a-b5b3-4aee-b311-5a25b365505c)
+
+En mi caso los redirijo primero al unifi y del unifi a HESTIA.
+
+![imagen](https://github.com/user-attachments/assets/1e417d77-b5b4-47e4-9efb-adea3c0e24e1)
+
+
+
+
+
+
+
 SPEEDTEST:
 - Ethernet:
   
