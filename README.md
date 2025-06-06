@@ -153,7 +153,8 @@ Simplemente añado los dominiosM y les suelo instalar un wordpress. Para realiza
 
 PARA QUE FUNCIONE EL WEBMAIL, HAY QUE AÑADIR EL webmail.dominio.com como alieses.
 
-![imagen](https://github.com/user-attachments/assets/1721bf27-892a-48bd-bc60-9a5a7cca9d55)
+![imagen](https://github.com/user-attachments/assets/fa3035b1-2bc2-4afe-986d-6ea89e6f54c6)
+
 
 Para los correos simlemente añado el dominio, activo estas opciones, y para el SSL, redirijo TEMPORALMENTE el trafico del puerto 80 y el 443 a la ip del HESPIA, porque sino no se puede bajar los certificados
 
