@@ -61,8 +61,15 @@ El router, te da una opción para hacer un firewall con reglas muy sólidas y qu
 
 ![imagen](https://github.com/user-attachments/assets/ffb98bd7-0ca9-4cfb-a4dd-7d466bb3f1a7)
 
+Por supuesto también está activado el sistema de deteccion de intrusos, que a la que visualiza un riesgo algua petición a la red lo bloquea al instante.
+
+<img width="1471" height="897" alt="imagen" src="https://github.com/user-attachments/assets/410d404e-3928-42b8-a77b-1b142a35109f" />
+
+<img width="1880" height="1003" alt="imagen" src="https://github.com/user-attachments/assets/d986a1b0-3583-4fe9-acea-79913efb215f" />
+
+
 DASHBOARD ROUTER:
-![imagen](https://github.com/user-attachments/assets/3e017961-16ff-4882-a786-c124d3b3b67d)
+<img width="1864" height="878" alt="imagen" src="https://github.com/user-attachments/assets/e8a5a6b7-4ffd-430b-b15f-302687c40aec" />
 
 
 SWITCH PRINCIPAL 
@@ -74,35 +81,40 @@ SWITCH PRINCIPAL
 
 ![imagen](https://github.com/user-attachments/assets/9eb96330-c431-4636-bdad-d5bdde8db123)
 
+SERVIDORES_
 
+PROXMOX:
 
-CLUSTER PROXMOX:
-
-NODE 1
+PVE 1:
 
     MINI PC Teclast n10
     6GB ram SODIMM DDR4
     CPU Celeron N4000 2 nucleos 2 hilos 2,6 GHz
     Disco Duro Externo SSD KINGSTON 240 SATA
 
-NODE 2
+PVE 2:
 
     CPU: i5-3330
-    RAM: 8GB RAM DDR3 1333 MHz
+    RAM: 12GB RAM DDR3 1333 MHz
     FUENTE 450W 80 PLUS BRONZE
     DISCOS: 1 HDD 1TB, 2 HDD 500GB, 1 HDD 160GB
     TARGETA DE RED: 1 TARGETA DE RED EXTRA 1 GBPS No es un servidor muy potente pero actualmente cubre las necessidades a nivel personal.
 
-IMPORTANTE:
-- Al tener 2 nodos el quorum, era de mas del 50%, es decir que el cluster necesitaba mas del 50% de los nodos en funcionamiento, al tener unicamente 2 nodos, cuando apagaba el nodo2, que es donde tengo el truenas virtualizado, al rato el nodo 1 dejaba de dar servicio, es decir era inaccesicble via web, únicamente podia acceder a a el físicamente. No es recomendable quitar el quorum , pero en este caso, he decidido que es lo mejor, ya que no me interesa tener el nodo 2 siempre encendido, únicamente cuando necesito realizar backups y demás.
+  TRUENAS:
+  Mini PC Lenovo
+  
+      CPU: i3 7100T
+      RAM: 8GB RAM DDR4 2133 MHz
+      DISCOS: 1 HDD 160 GB(S.O), 2 HDD 1000GB (RAID ESPEJO PARA LOS DATOS)
 
-  PONER FOTO DEL ARCHIVO DEL QUORUM
+
+Antiguamente, tenia los dos nodos de proxmox en cluster, decidí quitarlo, porque realmente me conviene mas tenerlos separados ya que te ahorras dolores de cabeza(si tengo equipos limitados como yo). Esto no quiere decir que no recomiende usarlo, lo recomiendo al 100x100 pero aseguraros que los equipos van a estra activos 24/7, en mi caso lo quité ya que no me hacia falta tener 24/7 mis servidores activos. Ahora sí me hace falta pero por si acaso he decidido no hacer cluster.
 
 FUNCIONES NODO 1: En el nodo 1 simplemente estoy corriendo 6 contenedores:
 
-- ADBLOCKER: Pihole
+- ADBLOCKER: Adguard
 
-- Tengo dos interficies de red, ya que de esta forma los de la VLAN 10 y los de la VLAN 20 (Servidores y Clientes), pueden tener de servidor DNS al PIHOLE, además los clientes de la VPN también usan de servidor DNS la 192.168.10.5(ip PIHOLE).
+- Tengo adguard con dns encriptado dot
 ![imagen](https://github.com/user-attachments/assets/fadac102-66ad-41e0-9095-7bd09c3a6b4f)
 
 ![imagen](https://github.com/user-attachments/assets/4509bc77-5966-42b2-a865-92d8135fe154)
