@@ -153,10 +153,10 @@ Sin duda una de las partes mas imprortanes del laboratorio, donde tengo mi servi
 <img width="1579" height="480" alt="imagen" src="https://github.com/user-attachments/assets/2c97861a-ec3f-461e-85a5-044ddf6994d7" />
 
 
-CONSUMOS PVE 2: Aunque parezcan pocos recursos, la CPU Y la RAM, son más que suficientes para mantener activos y en correcto funcionamiento los servicios que necesito.
-![imagen](https://github.com/user-attachments/assets/7fc7f270-53a8-4bae-997c-cd122d078912)
+CONSUMOS PVE 1: Aunque parezcan pocos recursos, la CPU Y la RAM, son más que suficientes para mantener activos y en correcto funcionamiento los servicios que necesito.
 
-![imagen](https://github.com/user-attachments/assets/ca40befa-43ec-4112-9269-d0f088d92d27)
+<img width="1398" height="389" alt="imagen" src="https://github.com/user-attachments/assets/12844a4a-ba48-4b87-bb87-8050dd88c122" />
+
 
 FUNCIONES PVE 2: En el nodo 2 actualmente solo tengo corriendo Proxmox, con el contenedor crafty, para hacer servidores de minecraft. Ahora mimso le tengo todos los recursos asignados a crafty ya que en el servidor somos varias personas jugando con mods y no creo que vaya a usar nada mas.
 
