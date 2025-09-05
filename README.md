@@ -137,7 +137,8 @@ FUNCIONES PVE1: En el nodo 1 simplemente estoy corriendo 6 contenedores y 1 VM, 
 
 
 - PASSWORD MANAGER: VaultWarden
-![407397320-1525570c-bd01-4b54-b7e3-eea283b56343](https://github.com/user-attachments/assets/9417b2a2-56f7-426a-914b-518a0ce0c823)
+<img width="1080" height="482" alt="imagen" src="https://github.com/user-attachments/assets/484a45db-9483-42f7-b494-c35b434ca15e" />
+
 
 - MONITORIZACIÓN: UptimeKuma
 ![imagen](https://github.com/user-attachments/assets/e17bb57f-5432-4053-bb22-d684cc4aea8a)
