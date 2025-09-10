@@ -216,9 +216,9 @@ CAMARAS SEGURIDAD:
 
 ## "RACK"
 
-No dispongo de rack, pero actualmente, con los dispositivos sencillos que tengo no me hace falta, y más o menos puedo tenerlo todo medianamente organizado fácilmente.ç
+No dispongo de rack, pero actualmente, con los dispositivos sencillos que tengo no me hace falta, y más o menos puedo tenerlo todo medianamente organizado fácilmente.
 
-![imagen](https://github.com/user-attachments/assets/fbafbdcd-ae2a-4f92-a7f0-09e6bf5dada5)
+<img width="650" height="686" alt="image" src="https://github.com/user-attachments/assets/2a6060da-b569-40fa-ac61-f016ec2ccccc" />
 
 
 ## UPDATES
