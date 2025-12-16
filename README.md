@@ -153,6 +153,8 @@ Sin duda una de las partes mas imprortanes del laboratorio, donde tengo mi servi
 
 <img width="1579" height="480" alt="imagen" src="https://github.com/user-attachments/assets/2c97861a-ec3f-461e-85a5-044ddf6994d7" />
 
+- IMMICH:
+Immich es un nuevo servicio que he implementado hace poco en mi homelab, ya que estaba cansado del espacio de google fotos, y como me sobra bastante espacio en el raid, he decidido implmentarlo ya que es muy facil de usar. El dolor de cabeza ha sido la hora de conectar el dataset de truenas. He creado un dataset NFS, lo he conectado a Proxmox, seguidamente he creado el LXC de immich con proxmox helper scritps. Posteriormente desde la shell de proxmox he accedido a la config del lxc y he montado el NFS dentro del contenedor. Una vez realizo las pruebas y pruebo que si escribo algo dentro del lxc en el dataset funciona y lo veo fisicamente en el dataset, edito la config que nos indica proxmox helper scriptsi modifico donde se guardan las fotos/videos. Seguidamente hago un enlace simbólico como dicen las instrucciones y borro los antiguos.
 
 CONSUMOS PVE 1: Aunque parezcan pocos recursos, la CPU Y la RAM, son más que suficientes para mantener activos y en correcto funcionamiento los servicios que necesito.
 
