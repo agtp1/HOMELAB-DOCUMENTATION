@@ -23,7 +23,8 @@ PUNTO DE ACCESO:
 
 
 DISTRIBUCIÓN RED:
-- Salida a internet: Para abrir puerto y salir a internet mantengo el router de mi ISP. Simplemente lo utilizo para tener conectividad a internet.
+- Salida a internet: Para abrir puerto y salir a internet mantengo el router de mi ISP. Simplemente lo utilizo para tener conectividad a internet.(ANTIGUO)
+- Ahora para salir a internet he quitado el router de mi ISP, y he puesto mi Unifi Cloud Gateway como Router para salir a internet. Mi isp es algo extraño y no me proporciona servicio a través de un usuario PPPoE, en mi caso me lo proporciona por la VLAN 20. Esto no me lo proporcionó mi ISP, me tuve que buscar la vida xD.
   
 ROUTER PRINCIPAL:
 - Al router le llega 1 cable a la ETH5, que es por donde salimos a internet. Seguidamente, en la ETH1, es mi puerto TRUNK del ROUTER, es decir en este puerto tengo hecha la encapsulación con las vlans para que el SWITCH PRINCIPAL, pueda gestionar y visualizar estas VLANS. 
